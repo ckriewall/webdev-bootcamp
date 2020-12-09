@@ -3,3 +3,6 @@ node_modules
 
 
 /node-demo/*.txt
+
+.env
+/.env
