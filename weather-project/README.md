@@ -8,14 +8,14 @@ An Express Server web app that takes text input (e.g. city, zip) and returns the
 
 ## Authentication
 
-Note, OpenWeatherMap.org requires API key, called an _appid_. [Get your API key](https://openweathermap.org/appid) before installing this project.
+OpenWeatherMap.org requires an API key, called an _appid_. [Get your API key](https://openweathermap.org/appid) before installing this project.
 
 ### OPEN_WEATHER_API_KEY
 
 The API key is stored in an environment variable using [dotenv](https://www.npmjs.com/package/dotenv).
 
-- Create the file .env in the project root.
-- In .env, provide your API key in the following format.
+- Create the file `.env` in the project root.
+- In `.env`, provide your API key in the following format.
 
 `OPEN_WEATHER_API_KEY = 'my_app_id'`
 
