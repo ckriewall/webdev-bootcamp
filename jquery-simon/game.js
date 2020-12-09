@@ -37,7 +37,6 @@ function animatePress(color) {
 function checkAnswer(currentLevel) {
   // correct answer
   if (gamePattern[currentLevel] === userPattern[currentLevel]) {
-    console.log('match - level ' + level)
     if (gamePattern.length === userPattern.length) {
       setTimeout(function () {
         nextSequence()

@@ -1,6 +1,6 @@
 # Tindog
 
-This is a website for an imaginary tech startup. The site advertises a new app called Tindog, a dating app for dogs.
+Website for an imaginary tech startup. The site advertises a new app called Tindog, a dating app for dogs.
 
 ## Technologies
 
@@ -15,6 +15,10 @@ This is a website for an imaginary tech startup. The site advertises a new app c
 - Google Fonts
 - HTML 5
 
+## Screenshot
+
+![Screenshot](https://i.ibb.co/jV510VS/tindog-screenshot.png)
+
 ## Credits
 
-Angela Yu's [starter code](https://github.com/jsoto3000/js-TinDog-Start-master) and [Webdev Bootcamp](https://www.udemy.com/course-dashboard-redirect/?course_id=1565838)
+Angela Yu's [starter code](https://github.com/jsoto3000/js-TinDog-Start-master)
