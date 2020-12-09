@@ -1,0 +1,43 @@
+body {
+  background-color: #cfd3ce;
+}
+
+code {
+  font-family: Consolas, 'courier new';
+  color: crimson;
+  background-color: #f1f1f1;
+  padding: 2px;
+  font-size: 105%;
+}
+
+h1,
+h2 {
+  color: #34626c;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: white;
+  border-width: 5px;
+  width: 30%;
+}
+
+th {
+  text-align: left;
+}
+
+.black {
+  color: black;
+}
+.blue {
+  color: blue;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}

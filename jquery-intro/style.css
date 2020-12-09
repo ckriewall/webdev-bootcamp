@@ -1,0 +1,31 @@
+body {
+  background-color: white;
+}
+
+.big-blue {
+  font-size: 3rem;
+  color: blue;
+}
+
+.margin-50 {
+  margin: 50px;
+}
+
+.small-purple {
+  font-size: 0.8rem;
+  color: purple;
+}
+
+.output-text {
+  color: purple;
+}
+
+div {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding: 10px;
+  margin: 20px;
+}

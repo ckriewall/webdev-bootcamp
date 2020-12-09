@@ -1,0 +1,107 @@
+body {
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+/* 
+  1em = 100% = 16px
+  1rem = relative to root em. not impacted by parent sizes
+*/
+
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  color: #66bfbf;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #11999e;
+}
+
+hr {
+  border: dotted gray;
+  border-bottom: none;
+  margin: 50px auto;
+  width: 30%;
+}
+
+p {
+  line-height: 2;
+}
+
+div {
+  padding: 20px;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+/* images  */
+
+.img-left {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.img-right {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 10%;
+}
+
+.top-cloud {
+  position: absolute;
+  left: 75%;
+}
+
+/* containers */
+
+.top-container {
+  height: 400px;
+  background-color: #e4f9f5;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #e4f9f5;
+}

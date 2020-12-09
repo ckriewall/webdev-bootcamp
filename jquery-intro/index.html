@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JQuery Testing</title>
+  </head>
+  <body>
+    <h1>JQuery Testing</h1>
+
+    <div class="buttons">
+      <h2>JQuery Text and Styling Methods</h2>
+      <p>
+        A standard HTML button modified with JQuery. Formatting is applied at
+        runtime using
+        <a href="https://api.jquery.com/addclass/">.addClass()</a>. The text is
+        modified with <a href="https://api.jquery.com/html/">.html()</a>.
+      </p>
+      <button name="button1">Click Me</button>
+    </div>
+
+    <div class="image">
+      <h2>JQuery Click Events</h2>
+      <p>
+        This image will change if you click it, but only once. The image souce
+        is changed using the JQuery
+        <a href="https://api.jquery.com/attr/">.attr()</a> method.
+      </p>
+      <img src="images/homer-1.png" alt="Homer" height="100px" />
+      <p>Click listeners are configured using two different techniques:</p>
+      <ul>
+        <li>
+          <a href="https://api.jquery.com/click/">.click</a> -
+          $('img').click(function () {})
+        </li>
+        <li>
+          <a href="https://api.jquery.com/on/">.on</a> -
+          $(document).on('keypress', function () {})
+        </li>
+      </ul>
+    </div>
+
+    <div class="output">
+      <h2>JQuery Keypress Events</h2>
+      <p>Keypress listeners are configured using two different techniques:</p>
+      <ul>
+        <li>
+          <a href="https://api.jquery.com/keypress/">.keypress</a> -
+          $(document).keypress(function () {})
+        </li>
+        <li>
+          <a href="https://api.jquery.com/on/">.on</a> -
+          $(document).on('keypress', function () {})
+        </li>
+      </ul>
+      <p class="output-text">Type some letters...</p>
+    </div>
+
+    <div class="animation">
+      <h2>JQuery Effects</h2>
+      <button id="animateButton">Animate something</button>
+      <p id="animatedText">
+        The JQuery library contains
+        <a href="https://api.jquery.com/category/effects/">effects</a> that
+        simulate animation. But numeric CSS values can also be modified to
+        simulate animation.
+      </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

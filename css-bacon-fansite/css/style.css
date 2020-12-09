@@ -1,0 +1,29 @@
+/* Tag selectors */
+
+body {
+  background-image: 'https://emojipedia-us.s3.amazonaws.com/thumbs/240/apple/118/bacon_1f953.png';
+  background-repeat: repeat;
+}
+
+h1 {
+  color: red;
+  font-size: 40px;
+}
+
+img {
+  background-color: red;
+}
+
+/* Pseudo-Class selector */
+img:hover {
+  background-color: gold;
+}
+
+/* Class Selectors */
+.bacon {
+  background-color: green;
+}
+
+.brocolli {
+  background-color: red;
+}

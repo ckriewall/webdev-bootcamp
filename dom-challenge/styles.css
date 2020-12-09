@@ -1,0 +1,18 @@
+h1 {
+  color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.crazy {
+  font-family: 'Tahoma';
+  font-weight: 900;
+  font-size: 4rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-color: grey;
+}
