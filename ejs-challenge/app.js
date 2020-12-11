@@ -30,6 +30,16 @@ app.get('/contact', (req, res) => {
   res.render('contact', { contactContent: contactContent })
 })
 
+app.get('/compose', (req, res) => {
+  res.render('compose')
+})
+
+app.post('/compose', (req, res) => {
+  const newPost = req.body.postTitle
+  console.log(newPost)
+  res.send(newPost)
+})
+
 app.listen(port, () => {
   console.log('Server started on port ' + port)
 })
