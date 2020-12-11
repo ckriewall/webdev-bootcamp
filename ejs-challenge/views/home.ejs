@@ -2,4 +2,12 @@
 
 <h1>Home</h1>
 
-<%= homeContent %> <%- include ('partials/footer') %>
+<%= homeContent %>
+<!--posts loop-->
+<% posts.forEach(p => { %>
+<h2><%= p.title %></h2>
+<p><%= p.body %></p>
+<% }) %>
+
+<!--footer-->
+<%- include ('partials/footer') %>
