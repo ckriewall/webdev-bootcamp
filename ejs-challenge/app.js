@@ -1,6 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const ejs = require('ejs')
+const _ = require('lodash')
 
 const port = 3000
 
@@ -43,6 +44,23 @@ app.post('/compose', (req, res) => {
   const post = { title: req.body.postTitle, body: req.body.postBody }
   posts.push(post)
   res.redirect('/')
+})
+
+app.get('/posts/:id', (req, res) => {
+  // lodash.lowerCase creates space separated words in lower case.
+  // Dashes and underscores become spaces.
+  const postId = _.lowerCase(req.params.id)
+  const post = posts.find((p) => postId === _.lowerCase(p.title))
+
+  if (post) {
+    res.render('post', { title: post.title, body: post.body })
+  } else {
+    res.redirect('/404')
+  }
+})
+
+app.get('/404', (req, res) => {
+  res.render('404', { errorContent: 'Oopsy daisy!' })
 })
 
 app.listen(port, () => {

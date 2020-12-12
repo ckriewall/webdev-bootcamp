@@ -5,8 +5,10 @@
 <%= homeContent %>
 <!--posts loop-->
 <% posts.forEach(p => { %>
-<h2><%= p.title %></h2>
-<p><%= p.body %></p>
+<h2 class="text-secondary my-2"><%= p.title %></h2>
+<p>
+  <%= p.body.substring(0,100) %>... <a href="posts/<%=p.title%>">Read More</a>
+</p>
 <% }) %>
 
 <!--footer-->
