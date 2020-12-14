@@ -12,7 +12,7 @@ A NodeJS-backed blog formatted with bootstrap. Content is rendered using [EJS](h
 
 ## Enhancements
 
-This project builds on the [original EJS Challenge](https://github.com/ckriewall/webdev-bootcamp/tree/main/ejs-challenge) by moving content to a Mongo Atlas database. Data is added/retrieved through the Mogoose ODM.
+This project builds on the [original EJS Challenge](https://github.com/ckriewall/webdev-bootcamp/tree/main/ejs-challenge) by moving content to a Mongo Atlas database. Blog posts and static page content are retrieved through the Mogoose ODM. New blog posts can be added and saved to Mongo through a web form.
 
 ## Customization
 
@@ -20,3 +20,7 @@ Download and `npm install`
 Add the file `.env` in the project root. Set the value of `MONGO-URI` to your own connection string.
 
     `MONGO_URI = mongodb+srv://my_connection_string`
+
+## Screenshot
+
+![Screenshot](https://i.ibb.co/PYrnBvh/ejs-challenge-2-screenshot.png)

@@ -9,3 +9,7 @@ A NodeJS backed blog formatted with bootstrap. Content is rendered using [EJS](h
 > EJS is a simple templating language that lets you generate HTML markup with plain JavaScript.
 > No religiousness about how to organize things. No reinvention of iteration and control-flow.
 > It's just plain JavaScript. [-ejs.co](https://ejs.co/)
+
+## Screenshot
+
+![Screenshot](https://i.ibb.co/7KT7zfM/ejs-challenge-screenshot.png)
